@@ -11,20 +11,32 @@ function setup() {
 	s = new Sprite();
 	s.setPos(300, 300);
 
-	circles[0] = new Circle(150, 150, 150);
-	circles[1] = new Circle(400, 100, 100);
-	circles[2] = new Circle(100, 400, 160);
-	circles[3] = new Circle(300, 500, 150);
-	circles[4] = new Circle(400, 450, 120);
-	circles[5] = new Circle(550, 200, 80);
+	// // demo1
+	// circles[0] = new Circle(250, 200, 150);
+	// circles[1] = new Circle(450, 400, 150);
+	// squares[0] = new Square(800, 300, 600);
 
-	squares[0] = new Square(80, 160, 110);
-	squares[1] = new Square(110, 350, 130);
+	// // demo2
+	// circles[0] = new Circle(250, 200, 150);
+	// circles[1] = new Circle(450, 400, 200);
+
+	// // both
+	squares[0] = new Square(490, 470, 160);
+	circles[0] = new Circle(410, 450, 120);
+
+	circles[1] = new Circle(100, 400, 160);
+	circles[2] = new Circle(550, 200, 80);
+
+	circles[0] = new Circle(150, 150, 150);
+	circles[3] = new Circle(260, 130, 120);
+	circles[4] = new Circle(400, 130, 100);
+	squares[3] = new Square(460, 160, 100);
+
+	squares[1] = new Square(80, 160, 110);
+	squares[2] = new Square(350, 80, 100);
+
 	squares[2] = new Square(230, 520, 80);
-	squares[3] = new Square(490, 470, 160);
-	squares[4] = new Square(520, 230, 80);
-	squares[5] = new Square(350, 80, 100);
-	frameRate(10);
+	squares[3] = new Square(520, 230, 80);
 }
 
 function draw() {

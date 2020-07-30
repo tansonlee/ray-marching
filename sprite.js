@@ -22,7 +22,7 @@ class Sprite {
 	}
 
 	rayMarching(start, angle) {
-		let min = squares[0].distToSprite(start);
+		let min = circles[0].distToSprite(start);
 		for (let c of circles) {
 			c.show();
 			if (c.distToSprite(start) < min) {
