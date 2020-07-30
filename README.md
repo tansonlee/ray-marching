@@ -6,7 +6,7 @@ Made with JavaScript and visualized with the p5.js library
 
 **Ray Marching:** A recersive algorithm which allows you to _find the intersection between a ray and an object given a distance function can be determined_. To determine the intersection for a given ray, the distance to the closest object is found and the ray advances that distance in the direction of the ray. The distance to the closest object is found again and the ray advances in the same way. This repeats recursively until the distance found approaches infinity or 0. If it approaches 0, the ray has intersected an object. If it approaches infinity, there are no objects in the direction of the ray.
 
-<img src="assets/demo1.pnh" width="270px"><img src="assets/demo2.png" width="270px"><img src="assets/demo3.png" width="270px">
+<img src="assets/demo1.png" width="270px"><img src="assets/demo2.png" width="270px"><img src="assets/demo3.png" width="270px">
 
 ---
 
