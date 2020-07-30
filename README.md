@@ -27,6 +27,8 @@ const distance = (point, circle) => {
 
 ---
 
+**Rectangle**
+
 A distance function can also be found for a rectangle.
 
 ```
@@ -40,6 +42,8 @@ const distance = (point, rectangle) {
 }
 
 ```
+
+**Combination of Shapes**
 
 <img src="assets/squares.gif" width="400px">
 
