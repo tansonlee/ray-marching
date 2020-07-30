@@ -43,11 +43,11 @@ const distance = (point, rectangle) {
 
 ```
 
-**Combination of Shapes**
-
 <img src="assets/squares.gif" width="400px">
 
 ---
+
+**Combination of Shapes**
 
 Multiple shapes can be combined and this algorithm will still work.
 
