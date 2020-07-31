@@ -14,7 +14,7 @@ Made with JavaScript and visualized with the p5.js library
 
 A distance function for a circle is easy to determine which allows the calculation for their intersection with a ray with this algorithm.
 
-```
+```javascript
 const point = { x, y };
 const circle = { x, y, r };
 
@@ -31,11 +31,11 @@ const distance = (point, circle) => {
 
 A distance function can also be found for a rectangle.
 
-```
+```javascript
 const point = { x, y };
 const rectangle = { x1, y1, x2, y2 }
 
-const distance = (point, rectangle) {
+const distance = (point, rectangle) => {
 	const dx = Math.max(rectangle.x1 - point.x, 0, point.x - rectangle.x2);
 	const dy = Math.max(rectangle.y1 - point.y, 0, point.y - rectangle.y2);
 	return sqrt(dx * dx + dy * dy);
