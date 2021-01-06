@@ -2,6 +2,8 @@
 
 ### Visualization of the ray marching algorithm with circle tracing
 
+Link to hosted project: [Ray Marching](https://tansonlee.github.io/ray-marching/)
+
 Made with JavaScript and visualized with the p5.js library
 
 **Ray Marching:** A recursive algorithm which allows you to <ins>find the intersection between a ray and an object given a distance function can be determined.</ins> To determine the intersection for a given ray, the distance to the closest object is found and the ray advances that distance in the direction of the ray. The distance to the closest object is found again and the ray advances in the same way. This repeats recursively until the distance found approaches infinity or 0. If it approaches 0, the ray has intersected an object. If it approaches infinity, there are no objects in the direction of the ray.
